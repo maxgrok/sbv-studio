@@ -13,56 +13,97 @@ const IndexPage = () => (
     <div className="Hero Home" id="home">
       <div className="Hero__Contents">
         <p>
-        SBV is a multidisciplinary innovation firm devoted to decentralized technology.
+        We are a values-aligned venture studio for incubating discrete projects in Crypto, Web3, and DeFi. 
         </p>
         <p className="light">
-        We support web-based public utilities that democratize opportunity, more justly accrue and distribute value, and promote our greater humanity.
+        The Web's founding principles of sovreignty, freedom, privacy, and community have guided each phase of its evolution. At SBV Studio, we're focused on building that next evolutionary wave. 
         </p>
         <div className="ButtonGroup">
-          <a className="Button Filled" href="mailto:contact@senaryblockchain.ventures">
-            Contact Us
-          </a>
+{/* <SocialLinks /> */}
         </div>
-        <SocialLinks />
       </div>
       <div className="HeroBorder BackgroundImage" />
     </div>
 
     <div className="Block Join">
-      <div className="Block__Contents" id="commonwealth">
+      <div className="Block__Contents" id="wave-one">
+      <h2>Wave One</h2>
+    <h3>Studio's first cohort of projects are focused on: </h3><br/>
         <div className="Grid">
           <div className="Column Column--33">
             <img src={IconSBV1} />
-            <h4>Studio</h4>
+            <h4>Media</h4>
+          
             <p className="light">
-            Our values-aligned venture studio for incubating discrete projects in Crypto, Web3 and DeFi.
+            Description of Media?
             </p>
           </div>
           <div className="Column Column--33">
             <img src={IconSBV2} />
-            <h4>Wave One</h4>
+            <h4>Housing</h4>
             <p className="light">
-            Studio's first cohort of projects are focused on Housing, Media, Community, Law, Innovation Design and Future of Work. 
+            Basic info on social tokens - creator and community<br/>
+            What they are, why the future, membership not audience, etc. 
+            </p>
+            <p>
+              Form link here: 
             </p>
           </div>
           <div className="Column Column--33">
             <img src={IconSBV3} />
-            <h4> Stay Tuned </h4>
+            <h4> Community </h4>
             <p className="light">
-           Stay tuned for updates! Lots more coming soon. 
+            SBV Studio is a rotating group of innovators and contributors incubating values-aligned crypto projects. 
+          </p>
+          </div>
+
+          <div className="Column Column--33">
+            <img src={IconSBV1} />
+            <h4> Innovation, design, and the future of work </h4>
+            <p className="light">
+           Description of icon?  
             </p>
           </div>
+
+          <div className="Column Column--33">
+            <img src={IconSBV2} />
+            <h4> Law </h4>
+            <p className="light">
+            SBV Studio is a rotating group of innovators and contributors incubating values-aligned crypto projects. 
+            </p>
+          </div>
+        </div> 
+            
+      </div>
+    </div>
+    
+    <div className="Block CommunityTokens" id="community-tokens"> {/* was get-involved change the id in the scss file*/}
+      <div className="Block__Contents">
+        <h1>Community Tokens</h1>
+        <div className="GetInvolved_Contents">
+            <img src={IconSBV2} /> <br/><br/><br/>
+            <p className="light">
+            Basic info on social tokens - creator and community<br/>
+            What they are, why the future, membership not audience, etc. 
+            </p>
+            <p>
+              Form link here: 
+            </p>
         </div>
       </div>
     </div>
-    <div className="Block GetInvolved" id="get-involved">
+    <div className="Block WorkWithUs" id="work-with-us"> {/* was -get-involved change the id in the scss file*/}
       <div className="Block__Contents">
-        <h1>Get Involved</h1>
+        <h1>Work with Us</h1>
         <div className="GetInvolved_Contents">
-        <p>
-          We’re always eager to connect and to collaborate. Check out our Medium page to read more about our strategic work and thinking. If you’d like to learn more about us, to share your insights about the problems we’re solving, or to recruit our community’s insights on the problems you are solving,
-          email <a href="mailto:contact@senaryblockchain.ventures">contact@senaryblockchain.ventures</a> and get us involved.
-        </p>
+            <img src={IconSBV3} />
+            <p className="light">
+            SBV Studio is a rotating group of innovators and contributors incubating values-aligned crypto projects. 
+            </p>
+            <p>
+              We're taking that values-aligned approach to venture building - inspired by the web3 movement itself. If you'd like to work with us to incubate a new project - please reach out!
+              INSERT FORM LINK HERE. 
+            </p>
         </div>
       </div>
     </div>

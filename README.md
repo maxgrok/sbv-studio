@@ -1,5 +1,7 @@
 # sbv-site
 
+This is the SBV Studio site. 
+
 ## Quick start
 
 1.  **Install the Gatsby CLI.**

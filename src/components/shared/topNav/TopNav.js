@@ -18,10 +18,28 @@ const TopNav = () => {
   return (
     <>
       <nav className="TopNav__Desktop">
-        <Link to="/#home">Home</Link>
-        <Link to="/#commonwealth">Studio</Link>
-        <Link to="/#get-involved">Get Involved</Link>
-        <Link to="/our-story">Our Story</Link>
+      <div className="menu" style={{marginRight: `750px`, display: `inline-block`}}> 
+      <ul>
+     <li>Home
+       <ul>
+         <li class="link">
+           <Link to="/" target="_blank">Studio</Link>
+           <ul>
+             <li class="link">
+               <Link to="/#wave-one" target="_blank">Wave One</Link>
+             </li>
+             <li class="link">
+               <Link to="/#community-tokens" target="_blank">Community Tokens</Link>
+             </li>
+             <li class="link">
+               <Link to="/#work-with-us" target="_blank">Work with Us</Link>
+             </li>
+           </ul>
+         </li>
+       </ul>
+     </li>
+    </ul>
+    </div>
       </nav>
       {/* Start Hamburger */}
       <button className={hamburgerClass} type="button" onClick={toggleNav}>
@@ -31,18 +49,21 @@ const TopNav = () => {
       </button>
       <div className={mobileNavClass}>
         <div className="TopNav__Mobile--Contents">
-          <Link to="/#home" onClick={toggleNav}>
-            Home
-          </Link>
-          <Link to="/#commonwealth" onClick={toggleNav}>
-            Adventures
-          </Link>
-          <Link to="/#get-involved" onClick={toggleNav}>
-            Get Involved
-          </Link>
-          <Link to="/our-story" onClick={toggleNav}>
-            Our Story
-          </Link>
+        <ul>
+            <li style={{listStyle:`none`}}>
+              <Link to="https://www.senaryblockchain.ventures/" onClick={toggleNav}>
+            Home</Link>
+            <ul>
+              <li><Link to="https://sbv.studio/">Studio</Link></li>
+              <ul>
+              <li><Link to="https://sbv.studio/#wave-one" target="_blank">Wave One</Link></li>
+              <li><Link to="https://sbv.studio/#community-tokens" target="_blank">Community Tokens</Link></li>
+              <li><Link to="https://sbv.studio/#work-with-us" target="_blank">Work with Us</Link></li>
+              </ul>
+            </ul>
+            </li>
+          </ul> 
+          <br/>{/* make into dropdown with "Studio" --> "Wave One", "Community Tokens", "Work with Us" options*/}
         </div>
       </div>
       {/* End Hamburger */}

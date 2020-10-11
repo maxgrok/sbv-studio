@@ -211,9 +211,27 @@ iframe {
     color: white;
     font-size: 1em;
   }
-  &.GetInvolved {
-    text-align: left;
+  &.CommunityTokens{
+    text-align: right;
     background-color: #50709A;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+      p {
+        text-align: right;
+      }
+      a {
+        text-align: right;
+        color:white;
+        text-decoration: underline;
+      }
+      img {
+        float: right;
+      }
+  }
+  &.WorkWithUs{
+    text-align: left;
+    background-color: #28384d;
     background-image: url('../images/sbv__banner-img.png');
     background-size: contain;
     background-repeat: no-repeat;

@@ -6,6 +6,7 @@ import './footer.scss'
 
 import MadeByRaidGuildSrc from '../../../images/raid-guild-banner.png'
 
+{/* TO DO: Edit the links here for the site page */ }
 const Footer = ({ siteTitle }) => (
   <div className="Footer">
     <div className="Footer__Contents">
@@ -19,26 +20,33 @@ const Footer = ({ siteTitle }) => (
         </Link>
         <Link
           className="Nav__Link"
-          to="/#commonwealth"
+          to="https://www.sbv.studio/"
           rel="noopener noreferrer"
         >
-          Adventures
+          Studio
         </Link>
         <Link
           className="Nav__Link"
-          to="/#get-involved"
+          to="/#wave-one"
           rel="noopener noreferrer"
-        >
-          Get Involved
+        >Wave One
         </Link>
         <Link
           className="Nav__Link"
-          to="/our-story/#ourstory-home"
+          to="/#community-tokens"
           rel="noopener noreferrer"
         >
-          Our Story
+          Community Tokens
         </Link>
-        <SocialLinks />
+
+        <Link
+          className="Nav__Link"
+          to="/#work-with-us"
+          rel="noopener noreferrer"
+        >
+          Work with Us
+        </Link>
+    {    /*<SocialLinks />*/}
         <div className="MadeByRaidGuild">
           <a href="https://raidguild.org/" target="_blank" rel="noopener noreferrer">
             <img src={MadeByRaidGuildSrc} alt="made by raidguild" width="250px" height="auto" />

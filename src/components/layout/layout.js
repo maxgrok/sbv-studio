@@ -27,15 +27,15 @@ const Layout = ({ children }) => (
             {
               name: 'description',
               content:
-                'SBV is a multidisciplinary innovation firm devoted to decentralized technology.',
+                'We are a values-aligned venture studio for incubating discrete projects in Crypto, Web3, and DeFi.',
             },
             {
               name: 'keywords',
               content:
                 'decentralized, dao, innovation',
             },
-            { property: 'og:title', content: 'Senary Blockchain Ventures' },
-            { property: 'og:url', content: 'https://senaryblockchain.ventures' },
+            { property: 'og:title', content: 'Studio' },
+            { property: 'og:url', content: 'https://sbv.studio' },
             {
               property: 'og:image',
               content: 'https://senaryblockchain.ventures/images/sbv-og-image.png',
@@ -43,7 +43,7 @@ const Layout = ({ children }) => (
             {
               property: 'og:description',
               content:
-                'SBV is a multidisciplinary innovation firm devoted to decentralized technology.',
+                'We are a values-aligned venture studio for incubating discrete projects in Crypto, Web3, and DeFi.',
             },
             {
               property: 'og:type',
@@ -55,16 +55,16 @@ const Layout = ({ children }) => (
             },
             {
               name: 'twitter:creator',
-              content: 'Senary Blockchain Ventures',
+              content: 'Studio',
             },
             {
               name: 'twitter:title',
-              content: 'Senary Blockchain Ventures',
+              content: 'Studio',
             },
             {
               name: 'twitter:description',
               content:
-                'SBV is a multidisciplinary innovation firm devoted to decentralized technology.',
+                'We are a values-aligned venture studio for incubating discrete projects in Crypto, Web3, and DeFi.',
             },
           ]}
         >
