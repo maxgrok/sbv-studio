@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: 'Senary Blockchain Ventures',
+    title: 'SBV | Studio',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Senary Blockchain Ventures',
-        short_name: 'SBV',
+        name: 'SBV | Studio',
+        short_name: 'Studio',
         start_url: '/',
         background_color: '#000',
         theme_color: '#77A7E6',

@@ -112,8 +112,8 @@
   --menu-height: 40px;
   // holder and ul general style
   // box-sizing: border-box;
-  position: fixed;
-  top: 4vw;
+  position: absolute;
+  top:4vw;
   ul {
     list-style: none;
     padding: 16px;

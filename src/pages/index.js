@@ -25,7 +25,7 @@ const IndexPage = () => (
       <div className="HeroBorder BackgroundImage" />
     </div>
 
-    <div className="Block Join">
+    <div className="Block Join" >
       <div className="Block__Contents" id="wave-one">
       <h2>Wave One</h2>
     <h3>Studio's first cohort of projects are focused on: </h3><br/>

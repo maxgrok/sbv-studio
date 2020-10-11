@@ -23,7 +23,7 @@ const TopNav = () => {
      <li>Home
        <ul>
          <li class="link">
-           <Link to="/" >Studio</Link>
+           <Link to="/">Studio</Link>
            <ul>
              <li class="link">
                <Link to="#wave-one" >Wave One</Link>
@@ -54,11 +54,11 @@ const TopNav = () => {
               <Link to="https://www.senaryblockchain.ventures/" onClick={toggleNav}>
             Home</Link>
             <ul>
-              <li><Link to="https://sbv.studio/">Studio</Link></li>
+              <li><Link to="/" onClick={toggleNav}>Studio</Link></li>
               <ul>
-              <li><Link to="/#wave-one" >Wave One</Link></li>
-              <li><Link to="/#community-tokens">Community Tokens</Link></li>
-              <li><Link to="/#work-with-us" >Work with Us</Link></li>
+              <li><Link to="/#wave-one" onClick={toggleNav}>Wave One</Link></li>
+              <li><Link to="/#community-tokens" onClick={toggleNav}>Community Tokens</Link></li>
+              <li><Link to="/#work-with-us" onClick={toggleNav} >Work with Us</Link></li>
               </ul>
             </ul>
             </li>
