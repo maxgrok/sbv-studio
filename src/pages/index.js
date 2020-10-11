@@ -30,45 +30,46 @@ const IndexPage = () => (
       <h2>Wave One</h2>
     <h3>Studio's first cohort of projects are focused on: </h3><br/>
         <div className="Grid">
-          <div className="Column Column--66">
+          <div className="Column Column--44">
             <img src={IconSBV1} />
             <h4>Media</h4>
+            {/*
             <p className="light">
             Description of Media?
-            </p>
+            </p> */}
           </div>
-          <div className="Column Column--66">
+          <div className="Column Column--44">
             <img src={IconSBV2} />
             <h4>Housing</h4>
-            <p className="light">
+            {/* <p className="light">
             Housing info...
-            </p>
+            </p> */}
           </div>
-          <div className="Column Column--66">
+
+          <div className="Column Column--44">
             <img src={IconSBV3} />
-            <h4> Community </h4>
-            <p className="light">
-            Community. 
-          </p>
-          </div>
-
-          <div className="Column Column--55">
-            <img src={IconSBV1} />
             <h4> Future of work </h4>
-            <p className="light">
+            {/* <p className="light">
            Description or icon?  
-            </p>
+            </p> */}
           </div>
 
-          <div className="Column Column--66">
+          <div className="Column Column--44">
+            <img src={IconSBV1} />
+            <h4> Community </h4>
+            {/* <p className="light">
+            Community. 
+          </p> */}
+          </div>
+
+          <div className="Column Column--44">
             <img src={IconSBV2} />
-            <h4> Law </h4>
-            <p className="light">
+            <h4> Legal </h4>
+            {/* <p className="light">
             Description or icon? 
-            </p>
+            </p> */}
           </div>
         </div> 
-            
       </div>
     </div>
     
@@ -82,7 +83,7 @@ const IndexPage = () => (
             What they are, why the future, membership not audience, etc. 
             </p>
             <p>
-              Form link here: 
+              <strong>Form link here: </strong>
             </p>
         </div>
       </div>
@@ -96,8 +97,8 @@ const IndexPage = () => (
             SBV Studio is a rotating group of innovators and contributors incubating values-aligned crypto projects. 
             </p>
             <p>
-              We're taking that values-aligned approach to venture building - inspired by the web3 movement itself. If you'd like to work with us to incubate a new project - please reach out!
-              Insert form link here. 
+              We're taking that values-aligned approach to venture building - inspired by the web3 movement itself. If you'd like to work with us to incubate a new project - <strong>please reach out!</strong> 
+                <strong>Insert form link here.</strong> 
             </p>
         </div>
       </div>

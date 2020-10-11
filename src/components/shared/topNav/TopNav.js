@@ -23,16 +23,16 @@ const TopNav = () => {
      <li>Home
        <ul>
          <li class="link">
-           <Link to="/" target="_blank">Studio</Link>
+           <Link to="/" >Studio</Link>
            <ul>
              <li class="link">
-               <Link to="/#wave-one" target="_blank">Wave One</Link>
+               <Link to="#wave-one" >Wave One</Link>
              </li>
              <li class="link">
-               <Link to="/#community-tokens" target="_blank">Community Tokens</Link>
+               <Link to="#community-tokens">Community Tokens</Link>
              </li>
              <li class="link">
-               <Link to="/#work-with-us" target="_blank">Work with Us</Link>
+               <Link to="#work-with-us" >Work with Us</Link>
              </li>
            </ul>
          </li>
@@ -56,9 +56,9 @@ const TopNav = () => {
             <ul>
               <li><Link to="https://sbv.studio/">Studio</Link></li>
               <ul>
-              <li><Link to="https://sbv.studio/#wave-one" target="_blank">Wave One</Link></li>
-              <li><Link to="https://sbv.studio/#community-tokens" target="_blank">Community Tokens</Link></li>
-              <li><Link to="https://sbv.studio/#work-with-us" target="_blank">Work with Us</Link></li>
+              <li><Link to="/#wave-one" >Wave One</Link></li>
+              <li><Link to="/#community-tokens">Community Tokens</Link></li>
+              <li><Link to="/#work-with-us" >Work with Us</Link></li>
               </ul>
             </ul>
             </li>

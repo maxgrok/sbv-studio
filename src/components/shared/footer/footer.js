@@ -46,7 +46,7 @@ const Footer = ({ siteTitle }) => (
         >
           Work with Us
         </Link>
-    {    /*<SocialLinks />*/}
+        <SocialLinks />
         <div className="MadeByRaidGuild">
           <a href="https://raidguild.org/" target="_blank" rel="noopener noreferrer">
             <img src={MadeByRaidGuildSrc} alt="made by raidguild" width="250px" height="auto" />
