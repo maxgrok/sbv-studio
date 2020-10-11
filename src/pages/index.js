@@ -33,7 +33,6 @@ const IndexPage = () => (
           <div className="Column Column--33">
             <img src={IconSBV1} />
             <h4>Media</h4>
-          
             <p className="light">
             Description of Media?
             </p>
@@ -42,18 +41,14 @@ const IndexPage = () => (
             <img src={IconSBV2} />
             <h4>Housing</h4>
             <p className="light">
-            Basic info on social tokens - creator and community<br/>
-            What they are, why the future, membership not audience, etc. 
-            </p>
-            <p>
-              Form link here: 
+            Housing info...
             </p>
           </div>
           <div className="Column Column--33">
             <img src={IconSBV3} />
             <h4> Community </h4>
             <p className="light">
-            SBV Studio is a rotating group of innovators and contributors incubating values-aligned crypto projects. 
+            Community. 
           </p>
           </div>
 
@@ -61,7 +56,7 @@ const IndexPage = () => (
             <img src={IconSBV1} />
             <h4> Innovation, design, and the future of work </h4>
             <p className="light">
-           Description of icon?  
+           Description or icon?  
             </p>
           </div>
 
@@ -69,7 +64,7 @@ const IndexPage = () => (
             <img src={IconSBV2} />
             <h4> Law </h4>
             <p className="light">
-            SBV Studio is a rotating group of innovators and contributors incubating values-aligned crypto projects. 
+            Description or icon? 
             </p>
           </div>
         </div> 
