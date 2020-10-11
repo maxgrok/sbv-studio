@@ -30,21 +30,21 @@ const IndexPage = () => (
       <h2>Wave One</h2>
     <h3>Studio's first cohort of projects are focused on: </h3><br/>
         <div className="Grid">
-          <div className="Column Column--33">
+          <div className="Column Column--66">
             <img src={IconSBV1} />
             <h4>Media</h4>
             <p className="light">
             Description of Media?
             </p>
           </div>
-          <div className="Column Column--33">
+          <div className="Column Column--66">
             <img src={IconSBV2} />
             <h4>Housing</h4>
             <p className="light">
             Housing info...
             </p>
           </div>
-          <div className="Column Column--33">
+          <div className="Column Column--66">
             <img src={IconSBV3} />
             <h4> Community </h4>
             <p className="light">
@@ -52,15 +52,15 @@ const IndexPage = () => (
           </p>
           </div>
 
-          <div className="Column Column--33">
+          <div className="Column Column--55">
             <img src={IconSBV1} />
-            <h4> Innovation, design, and the future of work </h4>
+            <h4> Future of work </h4>
             <p className="light">
            Description or icon?  
             </p>
           </div>
 
-          <div className="Column Column--33">
+          <div className="Column Column--66">
             <img src={IconSBV2} />
             <h4> Law </h4>
             <p className="light">
@@ -97,7 +97,7 @@ const IndexPage = () => (
             </p>
             <p>
               We're taking that values-aligned approach to venture building - inspired by the web3 movement itself. If you'd like to work with us to incubate a new project - please reach out!
-              INSERT FORM LINK HERE. 
+              Insert form link here. 
             </p>
         </div>
       </div>
