@@ -20,10 +20,10 @@ const TopNav = () => {
       <nav className="TopNav__Desktop">
       <div className="menu" style={{marginRight: `750px`, display: `inline-block`}}> 
       <ul>
-     <li>Home
+     <li class="link"><a href="#">Home</a>
        <ul>
          <li class="link">
-           <Link to="/">Studio</Link>
+           <a href="/">Studio</a>
            <ul>
              <li class="link">
                <Link to="#wave-one" >Wave One</Link>

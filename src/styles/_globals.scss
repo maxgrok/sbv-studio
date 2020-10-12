@@ -65,7 +65,10 @@ img {
   display: block;
   max-width: 100%;
 }
-
+i {
+  display: block;
+  max-width: 100%;
+}
 .top-anchor {
   display: block;
   padding-top:100px;
@@ -212,21 +215,18 @@ iframe {
     font-size: 1em;
   }
   &.CommunityTokens{
-    text-align: right;
+    text-align: left;
     background-color: #50709A;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom right;
       p {
-        text-align: right;
+        text-align: left;
       }
       a {
-        text-align: right;
+        text-align: left;
         color:white;
         text-decoration: underline;
       }
       img {
-        float: right;
+        float: left;
       }
   }
   &.WorkWithUs{

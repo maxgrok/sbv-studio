@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout/layout'
 import SocialLinks from '../components/shared/social/SocialLinks'
-
+import fontawesome from '@fortawesome/fontawesome-free/css/all.css';
 import IconSBV1 from '../images/sbv__icon1.svg'
 import IconSBV2 from '../images/sbv__icon2.svg'
 import IconSBV3 from '../images/sbv__icon3.svg'
@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout>
     <div className="Hero Home" id="home">
       <div className="Hero__Contents">
-        <p>
+        <p className="light">
         We are a values-aligned venture studio for incubating discrete projects in Crypto, Web3, and DeFi. 
         </p>
         <p className="light">
@@ -25,21 +25,21 @@ const IndexPage = () => (
       <div className="HeroBorder BackgroundImage" />
     </div>
 
-    <div className="Block Join" >
+    <div className="Block Join">
       <div className="Block__Contents" id="wave-one">
       <h2>Wave One</h2>
-    <h3>Studio's first cohort of projects are focused on: </h3><br/>
+     <p className="light">Studio's first cohort of projects are focused on: </p><br/>
         <div className="Grid">
           <div className="Column Column--44">
-            <img src={IconSBV1} />
-            <h4>Media</h4>
+            <i class="fas fa-icons"></i>
+            <h4>Community Media</h4>
             {/*
             <p className="light">
             Description of Media?
             </p> */}
           </div>
           <div className="Column Column--44">
-            <img src={IconSBV2} />
+          <i class="fas fa-home"></i>
             <h4>Housing</h4>
             {/* <p className="light">
             Housing info...
@@ -47,23 +47,15 @@ const IndexPage = () => (
           </div>
 
           <div className="Column Column--44">
-            <img src={IconSBV3} />
-            <h4> Future of work </h4>
+          <i class="fas fa-shapes"></i>
+            <h4> Innovation Design</h4>
             {/* <p className="light">
            Description or icon?  
             </p> */}
           </div>
 
           <div className="Column Column--44">
-            <img src={IconSBV1} />
-            <h4> Community </h4>
-            {/* <p className="light">
-            Community. 
-          </p> */}
-          </div>
-
-          <div className="Column Column--44">
-            <img src={IconSBV2} />
+          <i class="fas fa-balance-scale"></i>
             <h4> Legal </h4>
             {/* <p className="light">
             Description or icon? 
