@@ -107,157 +107,80 @@
 }
 
 
-.menu {
-  // define the height of the menu
-  --menu-height: 40px;
-  // holder and ul general style
-  // box-sizing: border-box;
-  position: absolute;
-  top:4vw;
-  ul {
-    list-style: none;
-    padding: 16px;
-    color: white;
-    margin: 0;
-    li, li a {
-      opacity: .8;
-      color: white;      
-      cursor: pointer;
-      transition: 200ms;
-      text-decoration: none;
-      white-space: nowrap;
-      font-size: .7em;
-      &:after {
-        content: '';
-        background-color: transparent;
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        transition: all 0.15s linear;
-      }
-      &:hover:after {
-        content: '';
-        background-color: $primary;
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        transition: all 0.15s linear;
-      }
-      &.Active {
-        color: $primary;
-        &:after {
-          content: '';
-          background-color: $primary;
-          height: 3px;
-          width: 100%;
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          transition: all 0.15s linear;
-        }    
-      }      
-    }
-    // lets put an arrow down 
-    // to the li`s with dropdown
-    li {
-      color: white;
-      padding-right: 36px;
-      &::before {
-        content: '';
-        width: 0; 
-        height: 0; 
-        border-left: 5px solid transparent;
-        border-right: 5px solid transparent;
-        border-top: 5px solid #40b1f0;
-        position: absolute;
-        right: 8px;
-        top: 50%;
-        transform: translateY(-50%);
-      }
-    }
-    .link a {
-      // links dont need arrow
-      &::before {
-        padding-right: 0;
-        display: none;
-      }      
-    }
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  list-style-type: none;
+}
+
+ul li {
+  padding: 6px 0;
+}
+
+ul li a{
+  position: relative;
+  display: block;
+  text-decoration: none;
+  font-size: 2rem;;
+  color: #ecf0f1;
+  padding: 4px 0;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: auto;
+  margin-left: 50px;
+  color: $primary;
+  text-decoration: none;
+  font-size: .7em;
+  @media (max-width: 1168px) {
+    font-size: .6em;
+    margin-left: 30px;
   }
-  // the first ul inside the container
-  // is the menu, so must be visible 
-  // and have its own style
-  > ul {
-    display: flex;
-    height: var(--menu-height);
-    align-items: center;
-    background-color: #28384d;
-    // the first ul elements can be a
-    // link or an li with a nested ul. 
-    // the nested ul will be a dropdown
-    li {
-      color:white;
-      position: relative;
-      margin: 0 8px;
-      // the dropdown style
-      ul {
-        visibility: hidden;
-        opacity: 0;        
-        padding: 0;
-        min-width: 160px;
-        background-color: #28384d;
-        position: absolute;
-        top: calc(var(--menu-height) + 5px);
-        left: 50%;
-        transform: translateX(-50%);
-        transition: 200ms;
-        transition-delay: 200ms;
-        // the dropdown items style
-        li {
-          margin: 0;
-          padding: 3px 3px;
-          display: flex;
-          align-items: left;
-          justify-content: flex-start;
-          height: 30px;
-          padding-right: 40px;
-          // lets put an arrow right
-          // to the inner li`s with
-          // dropdowns
-          &::before {
-            width: 0; 
-            height: 0; 
-            border-top: 5px solid transparent;
-            border-bottom: 5px solid transparent;
-            border-left: 5px solid #77a7e6;
-          }
-          // every dropdown after the
-          // first must open to the right
-          ul {
-            top: -3%;
-            left: 100%;
-            transform: translate(0)
-          }
-          &:hover {
-            background-color: #77a7e6;
-          }
-        }
-      }
-      // on hover an li (not an <a>)
-      // must show its ul (dropdown)
-      &:hover {
-        > ul {
-          opacity: 1;
-          visibility: visible;
-          transition-delay: 0ms;
-        }
-      }
+  color: white;
+  &:after {
+    content: '';
+    background-color: transparent;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.15s linear;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    background: #28384d;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  &:hover:after {
+    content: '';
+    background-color: $primary;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.15s linear;
+      transform: scaleX(1);
+      transform-origin: left;
+  }
+  &.Active {
+    color: $primary;
+    &:after {
+      content: '';
+      background-color: $primary;
+      height: 3px;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transition: all 0.15s linear;
     }
   }
 }
-
-
 // Old -- Refactoring
 
 .navbar__hamburger {
