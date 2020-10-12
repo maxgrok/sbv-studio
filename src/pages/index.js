@@ -32,7 +32,7 @@ const IndexPage = () => (
         <div className="Grid">
           <div className="Column Column--44">
             <i class="fas fa-icons"></i>
-            <h4>Community Media</h4>
+            <p className="light">Community Media</p>
             {/*
             <p className="light">
             Description of Media?
@@ -40,7 +40,7 @@ const IndexPage = () => (
           </div>
           <div className="Column Column--44">
           <i class="fas fa-home"></i>
-            <h4>Housing</h4>
+            <p className="light">Housing</p>
             {/* <p className="light">
             Housing info...
             </p> */}
@@ -48,7 +48,7 @@ const IndexPage = () => (
 
           <div className="Column Column--44">
           <i class="fas fa-shapes"></i>
-            <h4> Innovation Design</h4>
+            <p className="light"> Innovation Design</p>
             {/* <p className="light">
            Description or icon?  
             </p> */}
@@ -56,7 +56,7 @@ const IndexPage = () => (
 
           <div className="Column Column--44">
           <i class="fas fa-balance-scale"></i>
-            <h4> Legal </h4>
+            <p className="light"> Legal </p>
             {/* <p className="light">
             Description or icon? 
             </p> */}
@@ -74,7 +74,7 @@ const IndexPage = () => (
             Basic info on social tokens - creator and community<br/>
             What they are, why the future, membership not audience, etc. 
             </p>
-            <p>
+            <p className="light">
               <strong>Form link here: </strong>
             </p>
         </div>

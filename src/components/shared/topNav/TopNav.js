@@ -20,18 +20,18 @@ const TopNav = () => {
       <nav className="TopNav__Desktop">
       <div className="menu" style={{marginRight: `750px`, display: `inline-block`}}> 
       <ul>
-     <li class="link"><a href="#">Home</a>
+     <li className="link"><a href="#">Home</a>
        <ul>
-         <li class="link">
+         <li className="link">
            <a href="/">Studio</a>
            <ul>
-             <li class="link">
+             <li className="link">
                <Link to="#wave-one" >Wave One</Link>
              </li>
-             <li class="link">
+             <li className="link">
                <Link to="#community-tokens">Community Tokens</Link>
              </li>
-             <li class="link">
+             <li className="link">
                <Link to="#work-with-us" >Work with Us</Link>
              </li>
            </ul>
