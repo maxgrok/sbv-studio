@@ -67,7 +67,7 @@ const IndexPage = () => (
     
     <div className="Block CommunityTokens" id="community-tokens"> {/* was get-involved change the id in the scss file*/}
       <div className="Block__Contents">
-        <h1>Community Tokens</h1>
+        <h2>Community Tokens</h2>
         <div className="GetInvolved_Contents">
             <img src={IconSBV2} /> <br/><br/><br/>
             <p className="light">
@@ -82,14 +82,14 @@ const IndexPage = () => (
     </div>
     <div className="Block WorkWithUs" id="work-with-us"> {/* was -get-involved change the id in the scss file*/}
       <div className="Block__Contents">
-        <h1>Work with Us</h1>
+        <h2>Work with Us</h2>
         <div className="GetInvolved_Contents">
             <img src={IconSBV3} />
             <p className="light">
             SBV Studio is a rotating group of innovators and contributors incubating values-aligned crypto projects. 
             </p>
             <p>
-              We're taking that values-aligned approach to venture building - inspired by the web3 movement itself. If you'd like to work with us to incubate a new project - <strong>please reach out!</strong> 
+              We're taking that values-aligned approach to venture building - inspired by the web3 movement itself. If you'd like to work with us to incubate a new project - <strong> please reach out!</strong> <br/>
                 <strong>Insert form link here.</strong> 
             </p>
         </div>
