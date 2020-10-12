@@ -12,6 +12,7 @@ const IndexPage = () => (
   <Layout>
     <div className="Hero Home" id="home">
       <div className="Hero__Contents">
+        <h2>Studio</h2>
         <p className="light">
         We are a values-aligned venture studio for incubating discrete projects in Crypto, Web3, and DeFi. 
         </p>
