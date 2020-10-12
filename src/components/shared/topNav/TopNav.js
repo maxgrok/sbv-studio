@@ -18,17 +18,15 @@ const TopNav = () => {
   return (
     <>
       <nav className="TopNav__Desktop">
-        <a href="https://www.senaryblockchain.ventures">Home</a>
-        <div>
         <ul>
+          <li><a href="https://www.senaryblockchain.ventures">Home</a></li>
           <li><a href="http://www.sbv.studio">Studio</a></li>
-          <ul>
-          <li><a href="#wave-one">Wave One</a></li>
-          <li><a href="#community-tokens">Community Tokens</a></li>
-          <li><a href="#work-with-us">Work With Us</a></li>
-          </ul>
+            <ul>
+              <li><a href="#wave-one">Wave One</a></li>
+              <li><a href="#community-tokens">Community Tokens</a></li>
+              <li><a href="#work-with-us">Work With Us</a></li>
+            </ul>
         </ul>
-        </div>
       </nav>
       {/* Start Hamburger */}
       <button className={hamburgerClass} type="button" onClick={toggleNav}>
