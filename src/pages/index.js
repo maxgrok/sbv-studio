@@ -32,7 +32,7 @@ const IndexPage = () => (
      <p className="light">Studio's first cohort of projects are focused on: </p><br/>
         <div className="Grid">
           <div className="Column Column--44">
-            <i class="fas fa-icons"></i>
+            <i class="fas fa-icons fa-3x"></i>
             <p className="light">Community Media</p>
             {/*
             <p className="light">
@@ -40,7 +40,7 @@ const IndexPage = () => (
             </p> */}
           </div>
           <div className="Column Column--44">
-          <i class="fas fa-home"></i>
+          <i class="fas fa-home fa-3x"></i>
             <p className="light">Housing</p>
             {/* <p className="light">
             Housing info...
@@ -48,7 +48,7 @@ const IndexPage = () => (
           </div>
 
           <div className="Column Column--44">
-          <i class="fas fa-shapes"></i>
+          <i class="fas fa-shapes fa-3x"></i>
             <p className="light"> Innovation Design</p>
             {/* <p className="light">
            Description or icon?  
@@ -56,7 +56,7 @@ const IndexPage = () => (
           </div>
 
           <div className="Column Column--44">
-          <i class="fas fa-balance-scale"></i>
+          <i class="fas fa-balance-scale fa-3x"></i>
             <p className="light"> Legal </p>
             {/* <p className="light">
             Description or icon? 
