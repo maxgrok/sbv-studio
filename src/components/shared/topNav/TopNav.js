@@ -18,12 +18,9 @@ const TopNav = () => {
   return (
     <>
       <nav className="TopNav__Desktop">
-          {/* <div className="menu" style={{margin: `0 auto`}}>
-            <ul> */}
               <a href="#wave-one" className="navbar-link" id="navbar">Wave One</a>
               <a href="#community-tokens" className="navbar-link" id="navbar">Community Tokens</a>
               <a href="#work-with-us" className="navbar-link" id="navbar">Work With Us</a>
-            {/* </ul> */}
       </nav>
       {/* Start Hamburger */}
       <button className={hamburgerClass} type="button" onClick={toggleNav}>
