@@ -11,8 +11,8 @@ const Footer = ({ siteTitle }) => (
   <div className="Footer">
     <div className="Footer__Contents">
         <div className="MadeByRaidGuild">
-          <a href="https://raidguild.org/" target="_blank" rel="noopener noreferrer">
-            <img src={MadeByRaidGuildSrc} alt="made by raidguild" width="250px" height="auto" />
+          <a className="Logo" href="https://raidguild.org/" target="_blank" rel="noopener noreferrer">
+            <img id="raidguild" src={MadeByRaidGuildSrc} alt="made by raidguild" width="250px" height="auto" />
           </a>
         </div>
     </div>

@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout>
     <div className="Hero Home" id="home">
       <div className="Hero__Contents">
-        <h2>STUDIO</h2>
+        <h4 className="light" style={{fontSize: `35px`, lineHeight:`45px`}}>STUDIO</h4>
         <p className="light">
         We are a values-aligned venture studio for incubating discrete projects in Crypto, Web3, and DeFi. 
         </p>
@@ -30,7 +30,7 @@ const IndexPage = () => (
       <div className="Block__Contents" id="wave-one">
       <h4 style={{fontSize: `1.5em`}}>Wave One</h4>
       <img src={IconSBV1} />
-     <p className="light">Studio's first cohort of projects are focused on: </p><br/>
+     <p className="light" style={{fontSize: `22px`, lineHeight: `35px`}}>Studio's first cohort of projects are focused on: </p><br/>
         <div className="Grid">
           <div className="Column Column--35">
             <i class="fas fa-icons fa-3x"style={{margin: `0 auto`,opacity: `0.8`}}></i>
@@ -72,7 +72,7 @@ const IndexPage = () => (
         <h4  style={{fontSize: `1.5em`}}>Community Tokens</h4>
         <div className="GetInvolved_Contents">
             <img src={IconSBV2} /> <br/><br/><br/>
-            <p className="light">
+            <p className="light"  style={{fontSize: `22px`, lineHeight: `35px`}}>
             Basic info on social tokens - creator and community<br/>
             What they are, why the future, membership not audience, etc. 
             </p>
@@ -87,10 +87,10 @@ const IndexPage = () => (
         <h4  style={{fontSize: `1.5em`}}>Work with Us</h4>
         <div className="GetInvolved_Contents">
             <img src={IconSBV3} />
-            <p className="light">
+            <p className="light"  style={{fontSize: `22px`, lineHeight: `35px`}}>
             SBV Studio is a rotating group of innovators and contributors incubating values-aligned crypto projects. 
             </p>
-            <p>
+          <p className="light"style={{fontSize: `22px`, lineHeight: `35px`}}> 
               We're taking that values-aligned approach to venture building - inspired by the web3 movement itself. If you'd like to work with us to incubate a new project - <strong> please reach out!</strong> <br/>
                 <strong>Insert form link here.</strong> 
             </p>

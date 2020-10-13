@@ -9,9 +9,9 @@ const Header = ({ siteTitle }) => (
   <div className="Header">
     <div className="Header__Contents">
     <a className="top-anchor" id="ourstory-home" />
-      <Link className="Logo" to={`https://senaryblockchain.ventures`}>
-        <img src={Brand} alt="Brand" />
-      </Link>
+      <a className="Logo" href={`https://senaryblockchain.ventures`}>
+        <img src={Brand} alt="Brand"/>
+      </a>
       <TopNav />
     </div>
   </div>

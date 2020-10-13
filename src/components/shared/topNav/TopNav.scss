@@ -23,12 +23,11 @@
     @media (max-width: 1168px) {
       align-self: center;
     }
-    a{
+    .navbar-link#navbar{
       position: relative;
-      display: block;
       text-decoration: none;
       font-size: 2rem;;
-      color: #ecf0f1;
+      color: white;
       padding: 4px 0;
       transition: 0.5s;
       display: flex;
@@ -37,14 +36,12 @@
       position: relative;
       height: auto;
       margin-left: 50px;
-      color: $primary;
       text-decoration: none;
       font-size: .7em;
       @media (max-width: 1168px) {
         font-size: .6em;
         margin-left: 30px;
       }
-      color: white;
       &:after {
         content: '';
         background-color: transparent;
@@ -69,8 +66,8 @@
         bottom: 0;
         left: 0;
         transition: all 0.15s linear;
-          transform: scaleX(1);
-          transform-origin: left;
+        transform: scaleX(1);
+        transform-origin: left;
       }
       &.Active {
         color: $primary;
@@ -86,55 +83,8 @@
         }
       }
     }
-    // a {
-    //   display: flex;
-    //   align-items: center;
-    //   justify-content: center;
-    //   position: relative;
-    //   height: auto;
-    //   margin-left: 50px;
-    //   color: $primary;
-    //   text-decoration: none;
-    //   font-size: .7em;
-    //   @media (max-width: 1168px) {
-    //     font-size: .6em;
-    //     margin-left: 30px;
-    //   }
-    //   color: white;
-    //   &:after {
-    //     content: '';
-    //     background-color: transparent;
-    //     width: 100%;
-    //     position: absolute;
-    //     bottom: 0;
-    //     left: 0;
-    //     transition: all 0.15s linear;
-    //   }
-    //   &:hover:after {
-    //     content: '';
-    //     background-color: $primary;
-    //     width: 100%;
-    //     position: absolute;
-    //     bottom: 0;
-    //     left: 0;
-    //     transition: all 0.15s linear;
-    //   }
-      // &.Active {
-      //   color: $primary;
-      //   &:after {
-      //     content: '';
-      //     background-color: $primary;
-      //     height: 3px;
-      //     width: 100%;
-      //     position: absolute;
-      //     bottom: 0;
-      //     left: 0;
-      //     transition: all 0.15s linear;
-      //   }
-      // }
-    }
   }
-
+}
 .TopNav__Mobile {
   position: fixed;
   padding: 100px 50px 25px 25px;
@@ -151,11 +101,61 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    a {
-      font-size: 1.25em;
-      margin-top: 25px;
-      color: $primary;
+    .navbar-link#navbar{
+      position: relative;
       text-decoration: none;
+      font-size: 2.25em;
+      margin-top: 25px;
+      color: white;
+      padding: 4px 0;
+      transition: 0.5s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      height: auto;
+      margin-left: 50px;
+      text-decoration: none;
+      &:after {
+        content: '';
+        background-color: transparent;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: all 0.15s linear;
+        height: 3px;
+        top: 100%;
+        left: 0;
+        background: #28384d;
+        transition: transform 0.5s;
+        transform: scaleX(0);
+        transform-origin: right;
+      }
+      &:hover:after {
+        content: '';
+        background-color: $primary;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: all 0.15s linear;
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+      &.Active {
+        color: $primary;
+        &:after {
+          content: '';
+          background-color: $primary;
+          height: 3px;
+          width: 100%;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          transition: all 0.15s linear;
+        }
+      }
     }
     button {
       margin-top: 25px;
@@ -180,7 +180,7 @@ ul li {
   padding: 6px 0;
 }
 
-a{
+a#navbar-link{
   position: relative;
   display: block;
   text-decoration: none;

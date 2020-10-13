@@ -20,9 +20,9 @@ const TopNav = () => {
       <nav className="TopNav__Desktop">
           {/* <div className="menu" style={{margin: `0 auto`}}>
             <ul> */}
-              <a href="#wave-one">Wave One</a>
-              <a href="#community-tokens">Community Tokens</a>
-              <a href="#work-with-us">Work With Us</a>
+              <a href="#wave-one" className="navbar-link" id="navbar">Wave One</a>
+              <a href="#community-tokens" className="navbar-link" id="navbar">Community Tokens</a>
+              <a href="#work-with-us" className="navbar-link" id="navbar">Work With Us</a>
             {/* </ul> */}
       </nav>
       {/* Start Hamburger */}
@@ -33,21 +33,12 @@ const TopNav = () => {
       </button>
       <div className={mobileNavClass}>
         <div className="TopNav__Mobile--Contents">
-        <ul>
-            <li style={{listStyle:`none`}}>
-              <Link to="https://www.senaryblockchain.ventures/" onClick={toggleNav}>
-            Home</Link>
-            <ul>
-              <li><Link to="/" onClick={toggleNav}>Studio</Link></li>
-              <ul>
-              <li><Link to="/#wave-one" onClick={toggleNav}>Wave One</Link></li>
-              <li><Link to="/#community-tokens" onClick={toggleNav}>Community Tokens</Link></li>
-              <li><Link to="/#work-with-us" onClick={toggleNav} >Work with Us</Link></li>
-              </ul>
-            </ul>
-            </li>
-          </ul> 
-          <br/>{/* make into dropdown with "Studio" --> "Wave One", "Community Tokens", "Work with Us" options*/}
+          <ul>
+              <a className="navbar-link" id="navbar" href="https://www.senaryblockchain.ventures/" onClick={toggleNav}>Home</a>
+              <a className="navbar-link" id="navbar" href="/#wave-one" onClick={toggleNav}>Wave One</a>
+              <a className="navbar-link" id="navbar" href="/#community-tokens" onClick={toggleNav}>Community Tokens</a>
+              <a className="navbar-link" id="navbar" href="/#work-with-us" onClick={toggleNav} >Work with Us</a>
+          </ul>
         </div>
       </div>
       {/* End Hamburger */}
