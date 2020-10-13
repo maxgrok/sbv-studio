@@ -214,6 +214,16 @@ iframe {
     color: white;
     font-size: 1em;
   }
+  &#wave-one{
+    p {
+      font-size: 1.5em;
+      color: $primary;
+      text-align:center;
+    }
+    h4{
+      font-size: 2em;
+    }
+  }
   &.CommunityTokens{
     text-align: left;
     background-color: #50709A;

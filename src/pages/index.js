@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout/layout'
 import SocialLinks from '../components/shared/social/SocialLinks'
-import fontawesome from '@fortawesome/fontawesome-free/css/all.css';
+import '@fortawesome/fontawesome-free/css/all.css';
 import IconSBV1 from '../images/sbv__icon1.svg'
 import IconSBV2 from '../images/sbv__icon2.svg'
 import IconSBV3 from '../images/sbv__icon3.svg'
@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout>
     <div className="Hero Home" id="home">
       <div className="Hero__Contents">
-        <h2>Studio</h2>
+        <h2>STUDIO</h2>
         <p className="light">
         We are a values-aligned venture studio for incubating discrete projects in Crypto, Web3, and DeFi. 
         </p>
@@ -28,36 +28,37 @@ const IndexPage = () => (
 
     <div className="Block Join">
       <div className="Block__Contents" id="wave-one">
-      <h2>Wave One</h2>
+      <h4 style={{fontSize: `1.5em`}}>Wave One</h4>
+      <img src={IconSBV1} />
      <p className="light">Studio's first cohort of projects are focused on: </p><br/>
         <div className="Grid">
-          <div className="Column Column--44">
-            <i class="fas fa-icons fa-3x"></i>
-            <p className="light">Community Media</p>
+          <div className="Column Column--35">
+            <i class="fas fa-icons fa-3x"style={{margin: `0 auto`,opacity: `0.8`}}></i>
+            <p style={{margin: `1em auto`}}>Community Media</p>
             {/*
             <p className="light">
             Description of Media?
             </p> */}
           </div>
-          <div className="Column Column--44">
-          <i class="fas fa-home fa-3x"></i>
-            <p className="light">Housing</p>
+          <div className="Column Column--35">
+          <i class="fas fa-home fa-3x" style={{margin: `0 auto`, opacity: `0.8`}}></i>
+            <p style={{margin: `1em auto`}}>Housing</p>
             {/* <p className="light">
             Housing info...
             </p> */}
           </div>
 
-          <div className="Column Column--44">
-          <i class="fas fa-shapes fa-3x"></i>
-            <p className="light"> Innovation Design</p>
+          <div className="Column Column--35">
+          <i class="fas fa-shapes fa-3x" style={{margin: `0 auto`, opacity: `0.8`}}></i>
+            <p style={{margin: `1em auto`}}> Innovation Design</p>
             {/* <p className="light">
            Description or icon?  
             </p> */}
           </div>
 
-          <div className="Column Column--44">
-          <i class="fas fa-balance-scale fa-3x"></i>
-            <p className="light"> Legal </p>
+          <div className="Column Column--35">
+          <i class="fas fa-balance-scale fa-3x" style={{margin: `0 auto`, opacity: `0.8`}}></i>
+            <p style={{margin: `1em auto`}}> Legal </p>
             {/* <p className="light">
             Description or icon? 
             </p> */}
@@ -68,7 +69,7 @@ const IndexPage = () => (
     
     <div className="Block CommunityTokens" id="community-tokens"> {/* was get-involved change the id in the scss file*/}
       <div className="Block__Contents">
-        <h2>Community Tokens</h2>
+        <h4  style={{fontSize: `1.5em`}}>Community Tokens</h4>
         <div className="GetInvolved_Contents">
             <img src={IconSBV2} /> <br/><br/><br/>
             <p className="light">
@@ -83,7 +84,7 @@ const IndexPage = () => (
     </div>
     <div className="Block WorkWithUs" id="work-with-us"> {/* was -get-involved change the id in the scss file*/}
       <div className="Block__Contents">
-        <h2>Work with Us</h2>
+        <h4  style={{fontSize: `1.5em`}}>Work with Us</h4>
         <div className="GetInvolved_Contents">
             <img src={IconSBV3} />
             <p className="light">
